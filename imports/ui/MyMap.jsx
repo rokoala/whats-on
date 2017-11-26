@@ -13,19 +13,19 @@ const MyMap = compose(
     withGoogleMap
 )(props => {
 
-        return (
-            <GoogleMap
-                onClick={props.onMapClick}
-                defaultZoom={8}
-                defaultCenter={{ lat: -23.5489, lng: -46.6388 }}
-            >
-                {
-                    props.isMarkersShown &&
-                    props.markers
-                }
-            </GoogleMap>
-        )
-    }
+    return (
+        <GoogleMap
+            onClick={props.onMapClick}
+            defaultZoom={8}
+            defaultCenter={{ lat: -23.5489, lng: -46.6388 }}
+        >
+            {
+                props.isMarkersShown &&
+                props.markers
+            }
+        </GoogleMap>
+    )
+}
 );
 
 export default MyMap;

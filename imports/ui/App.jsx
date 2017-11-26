@@ -6,8 +6,8 @@ export default class App extends Component {
         return (
             <div className="container">
                 <header>
-                    <h1>React map</h1>
-                    <EventsMap/>
+                    <h1>WhatsOn</h1>
+                    <EventsMap />
                 </header>
             </div>
         )
