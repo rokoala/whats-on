@@ -1,1 +1,26 @@
 /* CSS declarations go here */
+html,body{
+    margin: 0;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+}
+
+#render-target{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    display: flex;
+}
+
+.markerMenu{
+    width:20%;
+}
+
+.mapContainer{
+    width: 80%;
+}
